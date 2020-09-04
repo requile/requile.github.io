@@ -1,0 +1,154 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+html
+{
+    height: 100%;
+	width: 100%;
+}
+
+/*Body*/
+body {
+	width: 100%;
+	height: 100%;
+	color: #DDDDDD;
+	background-color: #252120;
+	font-family: "Open Sans", sans-serif;
+}
+
+/*Header*/
+header {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	background-color: #AAAAAA;
+	color: #DDDDDD;
+	width: 100%;
+	top: 0px;
+	z-index: 9999;
+	height: 70px;
+	overflow: hidden;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+#headWrap {
+	margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+}
+#headHere a {
+    float: left;
+    padding: 15px 30px;
+    color: #001f3f;
+    text-decoration: none;
+    top: 0px;
+    z-index: 9999;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #7FDBFF;
+    filter: brightness(60%)
+}
+#headGoTo a {
+	float: left;
+	padding: 15px 30px;
+	color: #001f3f;
+	text-decoration: none;
+    box-sizing: border-box;
+}
+#headGoTo:hover a {
+    float: left;
+    padding: 15px 30px;
+    color: #001f3f;
+    text-decoration: none;
+    top: 0px;
+    z-index: 9999;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #7FDBFF;
+    filter: brightness(50%)
+}
+
+
+/*Blocks*/
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5em;
+	letter-spacing: 2px;
+	color: #AAAAAA;
+}
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	letter-spacing: 1.5px;
+	color: #AAAAAA;
+	display block;
+}
+p {
+	display: block;
+	width: 800px;
+}
+span {
+    padding-left: .5em;
+   	display:inline-block
+}
+ol {
+  	padding: 0% 3%;
+ 	list-style-position: inside;
+}
+ol li{
+	padding: 1% 0%;	
+	width: 800px;
+    text-indent: -2em;
+    margin-left: 2em;
+}
+
+
+/*Hyperlinks behaviour*/
+a:link {
+	color: #DDDDDD;
+}
+a:visited {
+	color: #DDDDDD;
+}
+
+/*Content Divs ans spans*/
+#content {
+	margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 3% 3%;
+}
+#title {
+	padding: 3% 3%;
+	float: center;
+}
+#paragraph {
+	padding: 2% 3%;
+}
+#paraol {
+	padding: 2% 0%;
+}
+#bottomDiv {
+	float: bottom;
+	padding: 3% 3%;
+}
+
+/* Photos Divs*/
+#photoDiv {
+    text-align: center;
+	padding: 3% 0%;
+}
+#tof {
+	border-radius: 10px;
+}
+#Library {
+   background-image: 'IMG_2349.jpg';
+}
+#Library:hover {
+   background-image: 'IMG_2347.jpg';
+}
+#ralign {
+	float: right;
+	padding-right: 6%;
+}
