@@ -1,0 +1,256 @@
+
+html {
+    height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+/*Header*/
+.topnav {
+ 	position: sticky;
+ 	top: 0;
+  	background-color: white;
+  	z-index: 1;
+}
+
+.topnav img {
+	width: 10%;
+	height: auto;
+	padding: 14px 16px;
+}
+
+.topnav-center {
+	font-size: 17px;
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 	
+}
+
+.topnav-center a {
+	padding: 14px 16px;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 20px;   
+} 
+
+.topnav-center a.active {
+  	color: black;
+} 
+
+.topnav-center a:hover {
+  	color: #04AA6D;
+}
+
+.topnav-right {
+  	float: right;
+ 	padding: 14px 16px;
+}
+
+.topnav-right a {
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.topnav-right a.active {
+  	color: black;
+} 
+
+.topnav-right a:hover {
+  	color: #04AA6D;
+}
+
+
+/*Title*/
+#title-image {
+   width:100%;
+   height:auto;
+   overflow: auto;
+   background-color: #609ba3;
+}
+
+#title-image img {
+   background-color: white;
+}
+
+#title-image > span { 
+   position: absolute; 
+   top: 175px;  
+   width: 100%; 
+   display:block;
+}
+
+#title-image h1 {
+	padding-left: 30px;
+} 
+
+#title-image h3 {
+	padding-left: 30px;
+} 
+
+#title-image p {
+	padding-top: 30px;
+	padding-left: 60px;
+} 
+
+#title-image a {
+	padding: 14px 16px;
+    text-decoration: none;
+    background-color: white;   
+} 
+
+#title-image a.active {
+	color: black;
+  	box-sizing: border-box;
+  	border-radius: 30px 30px 30px 30px
+} 
+
+
+/*Manifest*/
+#manifest {
+	width: 100%;
+	height: 650px;
+	background-color: #609ba3; 
+	overflow: auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#manifest h1 {
+	padding-left: 30px;
+	color: black;
+	width: 400px;
+}
+
+#manifest p {
+	padding-left: 30px;
+	color: black;
+	width: 800px;
+}
+
+
+/*Adhesio*/
+#adhesio {
+	padding-top: 15px;
+	width: 100%;
+	height: 150px;
+	background-color: #f0f6ff; 
+	overflow: auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#adhesio h1 {
+	color: black;
+	width: 500px;
+}
+
+#registrate-speach {
+	padding-top: 15px;
+	width: 100%;
+	height: 150px;
+	background-color: #f0f6ff; 
+	overflow: auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#adhesio p {
+	color: black;
+	width: 800px;
+}
+
+#formular {
+	width: 100%;
+	height: 800px;
+	background-color: #f0f6ff; 
+	overflow: auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+form {
+ 	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 20px;
+  	width: 800px;
+}
+
+label {
+	color: black;
+	display: block;
+}
+
+input[type=text], select {
+  	width: 100%;
+  	padding: 12px;
+  	margin: 8px 0;
+  	display: inline-block;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+}
+
+input[type=submit] {
+  	width: 100%;
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 14px;
+  	margin: 8px 0;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  	background-color: #45a049;
+}
+
+
+/*Bottom header: contact*/
+#bottomnav {
+	position: relative;
+	height: 100px;
+  	background-color: #00454e;
+  	bottom: 0;
+}
+
+#bottomnav-center {
+	font-size: 17px;
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 
+}
+
+#bottomnav-center a {
+	padding: 14px 16px;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 20px;  
+}
+
+#bottomnav-center a.active {
+	font-weight: bold;
+  	color: white;
+} 
+
+#bottomnav-center a:hover {
+  	color: black;
+}
