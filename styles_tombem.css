@@ -1,0 +1,179 @@
+
+html {
+   height: 100%;
+	width: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: docs-Roboto;
+	margin: 0;
+}
+
+/*Header*/
+.topnav {
+ 	position: sticky;
+ 	top: 0;
+  	background-color: #5b7c99;
+  	z-index: 1;
+}
+
+.topnav img {
+	width: 10%;
+	height: auto;
+	padding: 14px 16px;
+}
+
+.topnav-center {
+	font-size: 17px;
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 	
+}
+
+.topnav-center a {
+	padding: 14px 16px;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 20px;   
+} 
+
+.topnav-center a.active {
+  	color: #f7b355;
+} 
+
+.topnav-center a:hover {
+  	color: #fff4e6;
+}
+
+.topnav-right {
+  	float: right;
+ 	padding: 14px 16px;
+}
+
+.topnav-right a {
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-left: 10px; 
+}
+
+.topnav-right a.active {
+  	color: black;
+} 
+
+.topnav-right a:hover {
+  	color: #04AA6D;
+}
+
+
+/*Title*/
+#title-image {
+   width:100%;
+   height:auto;
+   overflow: auto;
+   background-color: #f7b355;
+   text-align: center;
+}
+
+
+/*Manifest*/
+#manifest {
+	padding-top: 15px;
+	width: 100%	;
+	height: 100%;
+	background-color: #f7b355; 
+	overflow: auto;
+}
+
+#manifest h1 {
+	color: black;
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+#manifest p {
+	padding-top: 20px;
+	color: #333333;
+	width: 800px;
+	margin: auto;
+}
+
+#manifest ul {
+	padding-top: 10px;
+	color: black;
+	width: 800px;
+	margin: auto;
+	list-style-type: none;
+}
+
+
+
+/*Llista d'adhesions*/
+#llista {
+	width: 100%;
+	height: 700px;
+	background-color: #fdf2e4; 
+	overflow: auto;
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#llista h1 {
+	padding-left: 40px;
+	color: black;
+	width: 400px;
+}
+
+#llista p {
+	color: #333333;
+	width: 800px;
+}
+
+
+/*Bottom header: contact*/
+#bottomnav {
+	position: relative;
+	height: 100px;
+  	background-color: #f7b355;
+  	bottom: 0;
+}
+
+#bottomnav img {
+	width: 30%;
+	height: auto;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+#bottomnav-center {
+	font-size: 17px;
+  	text-align: center;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%); 
+}
+
+#bottomnav-center a {
+	padding: 14px 16px;
+    display: inline;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-right: 20px;  
+}
+
+#bottomnav-center a.active {
+	font-weight: bold;
+  	color: #f7b355;
+} 
+
+#bottomnav-center a:hover {
+  	color: #fff4e6;
+}
